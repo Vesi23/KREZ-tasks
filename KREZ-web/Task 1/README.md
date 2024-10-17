@@ -3,3 +3,5 @@
 
 ## Change password form
 ![alt text](./images/image-1.png)
+
+npm install
