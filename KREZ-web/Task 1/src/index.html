@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KREZ-task</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="../images/KREZ-ICON.png">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <!-- Include Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="header-main-container">
+
+            <a href="https://krez.bg/" class="link-onlyne-store">
+                Нашите магазини<i class="bi bi-arrow-up-right"></i>
+            </a>
+
+            <div class="container">
+                <img src="../images/KREZ-LOGO.png" alt="Your Logo" class="logo-img">
+
+                <div class="dropdown first-dropdown">
+                    <p style="margin: 0">Верига магазини KREZ: </p>
+
+                    <button class="btn btn-dropdown-first">
+                        <span>
+                            <p class="p-dropdown-first">KREZ Alians B2B</p>
+                        </span>
+                        <i class="bi bi-arrow-down-short ms-2"></i>
+                    </button>
+
+                    <div class="dropdown-content">
+                        <a href="/alians">KREZ Alians B2B</a>
+                    </div>
+                </div>
+
+                <div class="search-container">
+                    <i class="bi bi-search"></i>
+                    <input class="input-search" type="text" placeholder="Tърси по име, sku, марка...">
+                </div>
+
+                <div class="user-actions">
+                    <div class="dropdown">
+
+                        <button class="btn btn-dropdown" class="login-btn">
+                            <i class="bi bi-person-circle me-2"></i>
+                            <span>
+                                Вход или <br> Регистрация
+                            </span>
+                            <i class="bi bi-arrow-down-short ms-2"></i>
+                        </button>
+
+                        <div class="dropdown-content">
+                            <a href="/login">Вход</a>
+                            <a href="/register">Регистрация</a>
+                        </div>
+                    </div>
+                    <button class="i-header"><i class="bi bi-card-list"></i></button>
+                    <button class="i-header"><i class="bi bi-cart3"></i></button>
+                    <button class="i-header"><i class="bi bi-plus-circle"></i></button>
+
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <ul>
+                        <li><a href="/"><i class="bi bi-list-nested"></i> ВСИЧКИ ПРОДУКТИ</a></li>
+                        <li><a href="/" style="background-color: red;">ПРОМОЦИИ</a></li>
+                        <li><a href="/">МАРКИ</a></li>
+                        <li><a href="/">БЛОГ</a></li>
+                        <li><a href="/">ЗА НАС</a></li>
+                        <li><a href="/">СКЛАДОВЕ</a></li>
+                        <li><a href="/">КОНТАКТИ</a></li>
+                    </ul>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <nav class="profile-nav">
+            <ul>
+                <li><a href="#">Моя профил</a></li>
+                <li><a href="#">Онлайн магазин</a></li>
+                <li><a href="#">Всички поръчки</a></li>
+                <li><a href="#">Задължения фактури</a></ли>
+                <li><a href="#">Данни за фактури</a></ли>
+                <li><a href="#">Адресна книга</a></ли>
+                <li><a href="#">Абонамент за бюлетина</a></ли>
+                <li><a href="#">Настройки на профила</a></ли>
+                <li><a href="#"><i class="bi bi-box-arrow-left i-logout"></i> Изход</a></ли>
+            </ul>
+        </nav>
+
+        <div class="profile-view">
+            <h1 class="title-view">Настройки на профила</h1>
+
+            <div class="settings-form">
+
+                <section class="profile-info">
+                    <h3 class="title-view border-h3">Информация за профила</h3>
+                    <form>
+                        <label for="fname">Име:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Име"><br>
+                        <label for="lname">Фамилия:</label><br>
+                        <input type="text" id="lname" name="lname" placeholder="Фамилия"><br>
+                    </form>
+                </section>
+
+                <section class="settings-email">
+                    <h3 class="title-view border-h3">E-mail и парола</h3>
+
+                    <form>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" placeholder="user@mail.bg"><br>
+                    </form>
+
+                    <div class="settings-password">
+                        <input type="checkbox" name="option"> Промени парола<br>
+
+                        <form id="change-password-form">
+                            <label for="current-password">Текуща парола: <span class="required">*</span></label><br>
+                            <input type="password" id="current-password" name="current-password" required>
+
+                            <label for="new-password">Нова парола: <span class="required">*</span></label><br>
+                            <input type="password" id="new-password" name="new-password" required><br>
+
+                            <label for="confirm-password">Потвърдете новата парола: <span
+                                    class="required">*</span></label><br>
+                            <input type="password" id="confirm-password" name="confirm-password" required><br>
+
+                            <button class="btn-submit" type="submit">Запази</button>
+                        </form>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-left">
+                <h2>КРЕЗ Алианс ЕООД</h2>
+                <p class="p-text"><strong class="bold-text">B2B платформа</strong> предназначена за корпоративни клиенти
+                    и обекти.</p>
+            </div>
+
+            <div class="footer-right">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="/">ЗА НАС</a></li>
+                        <li><a href="/">БЛОГ</a></li>
+                        <li><a href="/">ОБЩИ УСЛОВИЯ</a></li>
+                        <li><a href="/">КОНТАКТИ</a></li>
+                        <li><a href="/">КЪДЕ ДА ОТКРИЕТЕ НАШИ ПРОДУКТИ?</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <div class="footer-top footer-top-border">
+            <p class="p-gray-text">© ТМ КРЕЗ. Всички права запазени.</p>
+            <p class="p-gray-text">Политика за поверителност (GDPR)</p>
+            <p class="p-gray-text">Онлайн магазин <strong>Stenik</strong></p>
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

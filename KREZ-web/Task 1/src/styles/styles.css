@@ -1,0 +1,482 @@
+/* General styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #373742;
+    box-sizing: border-box;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.link-onlyne-store {
+    padding-bottom: 15px;
+    margin-left: 1860px;
+    color: #4db848;
+    display: flex;
+}
+
+/* Header styles */
+header {
+    background-color: #444a55;
+    padding-top: 15px;
+    color: #f8f8f8;
+}
+
+.header-main-container {
+    flex-direction: column;
+    display: flex;
+}
+
+.logo-img {
+    height: 100px;
+}
+
+header .container {
+    background-color: #373742;
+    align-items: center;
+    display: flex;
+}
+
+header img {
+    height: 160px;
+}
+
+header .search-bar {
+    display: flex;
+    flex-grow: 1;
+}
+
+header .search-bar input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+/* Search container styles */
+.search-container {
+    align-items: center;
+    margin-right: 400px;
+    margin-left: 200px;
+    display: flex;
+}
+
+.search-container i {
+    position: relative;
+    color: #8a8a8a;
+    font-size: 25px;
+    bottom: 5px;
+    left: 33px;
+}
+
+.search-container .input-search {
+    border: 2px solid #a6a6a6;
+    padding-bottom: 18px;
+    padding-right: 270px;
+    border-radius: 4px;
+    padding-left: 33px;
+    padding-top: 18px;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+}
+
+header .user-actions {
+    display: flex;
+}
+
+header .user-actions button {
+    background-color: #373742;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.login-btn {
+    background-color: #444a55;
+}
+
+header .main-nav {
+    background-color: #444a55;
+    justify-content: center;
+    color: #f8f8f8;
+    display: flex;
+    padding: 10px;
+}
+
+header .main-nav ul {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+header .main-nav ul li {
+    margin: 0 15px;
+}
+
+header .main-nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #ffffff;
+    display: block;
+}
+
+
+header .main-nav ul li a:hover {
+    background-color: #4db848;
+    border-radius: 4px;
+}
+
+.i-header {
+    font-size: 30px;
+}
+
+/* Main styles */
+main {
+    background-color: #ffffff;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+}
+
+main .profile-nav {
+    padding-right: 100px;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+main .profile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main .profile-nav ul li {
+    margin: 16px 0;
+}
+
+main .profile-nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main .profile-nav ul li a:hover {
+    color: #4db848;
+}
+
+main .profile-view {
+    margin-right: 500px;
+    padding: 15px;
+}
+
+main .settings-form {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+main .settings-form .profile-info {
+    padding-right: 140px;
+    margin-right: 60px;
+    color: #8b94a3;
+    width: 100%;
+}
+
+main .settings-form .settings-email {
+    box-sizing: border-box;
+    color: #8b94a3;
+    width: 100%;
+}
+
+main .title-view {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+main .border-h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+    color: #5b5b5f;
+    font-size: 16px;
+    display: flex;
+    width: 100%;
+}
+
+.i-logout {
+    font-size: 20px;
+    color: #060606;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-right: 80px;
+    padding-left: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-submit {
+    background-color: #0570d7;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #084e8f;
+}
+
+/* Footer styles */
+footer {
+    background-color: #373742;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    color: #fff;
+}
+
+footer .footer-container {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+footer .footer-left h2 {
+    font-size: 18.5px;
+}
+
+.bold-text {
+    color: #fefefe;
+}
+
+.p-gray-text {
+    color: #a2a2a2;
+    font-size: 15px;
+    padding-left: 13;
+    padding-right: 13px;
+}
+
+
+footer .footer-right nav ul {
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+footer .footer-right nav ul li a {
+    transition: color 0.3s;
+    text-decoration: none;
+    font-size: 12.5px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer .footer-right nav ul li a:hover {
+    color: #4db848;
+}
+
+footer .footer-top {
+    text-decoration: none;
+    color: #9aa3b3;
+    display: flex;
+    padding: 20px;
+}
+
+.footer-top {
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 14px;
+    display: flex;
+}
+
+.footer-nav {
+    padding-top: 15px;
+}
+
+.footer-top-border {
+    border-top: 1px solid #9aa3b3;
+    padding-top: 10px;
+}
+
+.first-dropdown {
+    margin-left: 20px;
+}
+
+/* General button styling */
+.btn-dropdown-first {
+    background-color: #373742;
+    align-items: center;
+    padding: 10px 16px;
+    color: #fbf2f2;
+    font-size: 15px;
+    display: flex;
+    border: none;
+    width: 180px;
+    margin: 0;
+    padding: 0px;
+}
+
+.p-dropdown-first {
+    color: #4db848;
+    padding: 0px;
+    margin: 5px
+}
+
+.btn-dropdown {
+    justify-content: space-between;
+    background-color: #373742;
+    align-items: center;
+    padding: 10px 16px;
+    color: #fbf2f2;
+    font-size: 15px;
+    display: flex;
+    border: none;
+    width: 180px;
+}
+
+/* Button hover effect */
+.btn-dropdown:hover {
+    background-color: #373742;
+}
+
+/* Dropdown container */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    min-width: 160px;
+    overflow: hidden;
+    display: none;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    padding: 12px 16px;
+    display: block;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #4db848;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .bi-arrow-down-short {
+    transition: transform 0.3s ease;
+    transform: rotate(180deg);
+}
+
+.bi-person-circle {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.dropdown-content {
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Error Message Styling */
+.error-message {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    white-space: nowrap;
+    position: relative;
+    color: #721c24;
+    margin-left: 10px;
+    font-size: 12px;
+    z-index: 1000;
+    bottom: 15px;
+    right: 10px;
+}
+
+.strength-message {
+    background-color: #cdd0d6;
+    border: 1px solid #c2c4c9;
+    white-space: nowrap;
+    position: relative;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #000;
+    z-index: 1000;
+    bottom: 15px;
+    width: 100%;
+}
+
+/* Resonsive styles */
+@media (max-width: 768px) {
+    header .container {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    header .main-nav ul {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    header .main-nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .settings-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer-left,
+    footer .footer-right {
+        margin: 10px 0;
+    }
+
+    footer .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
+}
